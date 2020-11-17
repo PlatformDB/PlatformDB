@@ -33,12 +33,5 @@ Our mission is to help developers integrate best practices from successful compa
 
 ## Why use an existing DB as the back-end? Why PostgreSQL?
 
-PostgreSQL is an incredible technology. Its performance has improved dramatically in the last 10 years and it is now widely used in production in many startups. There are many solutions available for:
+PostgreSQL is an incredible technology. Its performance has improved dramatically in the last 10 years and it is now widely used in production in many startups. Since it's a popular technology, the ecosystem is huge (cloud hosting, back-office solutions like Forest Admin and Retool, BI Tools, etc). Also, our goal is to make PlatformDB gradually adopted by any team of any size. Thousands of small teams usually have 1 DB and are not willing to add another DB in another technology to their production environment. 
 
-- Cloud hosting
-- SaaS Back-office solutions (Forest Admin, Retool)
-- BI tools
-- Back-up and replication tools
-- etc. 
-
-99% of tech companies only need 1 database. Our idea is to make PlatformDB gradually adopted, even in large codebases, without needing to manage another database server.
