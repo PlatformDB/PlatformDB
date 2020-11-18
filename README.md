@@ -24,7 +24,6 @@ It has a few key components :
 Our mission is to help developers integrate best practices from successful companies in an opiniated way. So we strongly encourage and discourage behaviors: 
 - We add a 1000ms latency into the OLAP SQL interface to discourage using it for application code
 - Transactions are only possible in a declarative way: this prevents stale transactions to be created (a major source of Db downtimes) from code
-- We don't allow join queries: you are almost always better off not using them in production 
 - We use UUIDv4 primary keys by default in all tables 
 - We expose common high level strategies:
   - Append-only operations with common and efficient locking tricks
