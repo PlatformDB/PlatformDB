@@ -2,13 +2,14 @@
 
 A DB technology empowering developers with best practices from the top successful tech companies around the world
 
-## What is it exactly ?  
+## What is it exactly?  
 
 PlatformDB is mostly an abstraction layer on top of existing technologies (PosgreSQL) and embedding common best practices
 
 It has a few key components : 
 - **PlatformDB middleware**: a server exposing a new query language and implementing high level platform features:
   - Traditional CRUD operations, schema manipulation
+  - Data versionning as first class citizen 
   - A gRPC interface for OLTP operations 
   - Append Only and Immutability features
   - Connection pooling
