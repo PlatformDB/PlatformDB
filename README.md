@@ -1,6 +1,6 @@
 # PlatformDB
 
-A DB technology empowering developers with best practices from the top successful tech companies around the world
+A Database technology empowering developers with best practices from the top successful tech companies around the world
 
 ## Why PlatformDB
 
