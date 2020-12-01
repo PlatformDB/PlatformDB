@@ -20,9 +20,10 @@ It has a few key components :
   - Append Only and Immutability features
   - Connection pooling
   - Declarative transactions
+  - Easy and transparent encryption for privacy fields
   - A **read-only** SQL proxy to perform OLAP queries on the underlying back-end
 - **PostgresQL** as the backend: your data ultimately goes to a PostgresQL. Easy install, backup, upgrade, hosting, etc. SQL is a fantastic  language for complex analysis and aggregations
-- Client libraries in Go, JavaScript, Ruby, Python
+- Client libraries in Go, JavaScript, Ruby, Python. The goal is to then create ORMs that look very familiar
 - The `platform` cli: used for administration and interactive querying
 
 ## We optimize for best practices
